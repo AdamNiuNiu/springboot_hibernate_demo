@@ -1,0 +1,133 @@
+2020-06-29 14:47:14.231|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStarting() 55|Starting SpringbootHibernateDemoApplication on DESKTOP-CAVF6SU with PID 2528 (E:\tool\idea\workdir\springboot_hibernate_demo\target\classes started by My in E:\tool\idea\workdir\springboot_hibernate_demo)
+2020-06-29 14:47:14.245|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-06-29 14:47:16.243|INFO |main|main|org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn() 127|Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-29 14:47:16.485|INFO |main|main|org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn() 187|Finished Spring Data repository scanning in 223ms. Found 1 JPA repository interfaces.
+2020-06-29 14:47:18.365|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8080 (http)
+2020-06-29 14:47:18.399|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-29 14:47:18.400|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-06-29 14:47:18.404|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-29 14:47:18.912|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log() 173|Initializing Spring embedded WebApplicationContext
+2020-06-29 14:47:18.912|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 4402 ms
+2020-06-29 14:47:20.184|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-29 14:47:20.649|INFO |task-1|task-1|org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation() 31|HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-29 14:47:20.710|WARN |main|main|org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor() 220|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-29 14:47:20.819|INFO |task-1|task-1|org.hibernate.Version.logVersion() 44|HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-29 14:47:21.752|INFO |task-1|task-1|org.hibernate.annotations.common.Version.<clinit>() 49|HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-29 14:47:22.148|INFO |task-1|task-1|com.zaxxer.hikari.HikariDataSource.getConnection() 110|HikariPool-1 - Starting...
+2020-06-29 14:47:22.153|WARN |task-1|task-1|com.zaxxer.hikari.util.DriverDataSource.<init>() 70|Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-29 14:47:22.609|INFO |task-1|task-1|com.zaxxer.hikari.HikariDataSource.getConnection() 123|HikariPool-1 - Start completed.
+2020-06-29 14:47:22.645|INFO |task-1|task-1|org.hibernate.dialect.Dialect.<init>() 172|HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-29 14:47:24.781|INFO |task-1|task-1|org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService() 52|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-29 14:47:24.799|INFO |task-1|task-1|org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory() 416|Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-29 14:47:25.842|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8080"]
+2020-06-29 14:47:25.894|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-29 14:47:25.896|INFO |main|main|org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent() 49|Triggering deferred initialization of Spring Data repositories…
+2020-06-29 14:47:26.087|INFO |main|main|org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent() 53|Spring Data repositories initialized!
+2020-06-29 14:47:26.112|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStarted() 61|Started SpringbootHibernateDemoApplication in 13.312 seconds (JVM running for 19.259)
+2020-06-29 14:47:33.479|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy() 598|Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-29 14:47:33.486|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-29 14:47:33.487|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.zaxxer.hikari.HikariDataSource.close() 350|HikariPool-1 - Shutdown initiated...
+2020-06-29 14:47:33.510|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.zaxxer.hikari.HikariDataSource.close() 352|HikariPool-1 - Shutdown completed.
+2020-06-29 14:48:27.943|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStarting() 55|Starting SpringbootHibernateDemoApplication on DESKTOP-CAVF6SU with PID 15808 (E:\tool\idea\workdir\springboot_hibernate_demo\target\classes started by My in E:\tool\idea\workdir\springboot_hibernate_demo)
+2020-06-29 14:48:28.004|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-06-29 14:48:30.800|INFO |main|main|org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn() 127|Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-29 14:48:30.994|INFO |main|main|org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn() 187|Finished Spring Data repository scanning in 165ms. Found 1 JPA repository interfaces.
+2020-06-29 14:48:32.585|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8080 (http)
+2020-06-29 14:48:32.612|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-29 14:48:32.613|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-06-29 14:48:32.614|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-29 14:48:32.960|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log() 173|Initializing Spring embedded WebApplicationContext
+2020-06-29 14:48:32.960|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 4634 ms
+2020-06-29 14:48:33.334|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-29 14:48:33.475|INFO |task-1|task-1|org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation() 31|HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-29 14:48:33.804|INFO |task-1|task-1|org.hibernate.Version.logVersion() 44|HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-29 14:48:34.106|WARN |main|main|org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor() 220|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-29 14:48:34.257|INFO |task-1|task-1|org.hibernate.annotations.common.Version.<clinit>() 49|HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-29 14:48:34.640|INFO |task-1|task-1|com.zaxxer.hikari.HikariDataSource.getConnection() 110|HikariPool-1 - Starting...
+2020-06-29 14:48:34.650|WARN |task-1|task-1|com.zaxxer.hikari.util.DriverDataSource.<init>() 70|Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-29 14:48:35.045|INFO |task-1|task-1|com.zaxxer.hikari.HikariDataSource.getConnection() 123|HikariPool-1 - Start completed.
+2020-06-29 14:48:35.076|INFO |task-1|task-1|org.hibernate.dialect.Dialect.<init>() 172|HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-29 14:48:36.743|INFO |task-1|task-1|org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService() 52|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-29 14:48:36.765|INFO |task-1|task-1|org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory() 416|Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-29 14:48:37.470|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-29 14:48:38.290|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8080"]
+2020-06-29 14:48:38.362|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-29 14:48:38.364|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-06-29 14:48:38.412|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-06-29 14:48:38.517|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-06-29 14:48:38.766|INFO |main|main|org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent() 49|Triggering deferred initialization of Spring Data repositories…
+2020-06-29 14:50:04.589|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStarting() 55|Starting SpringbootHibernateDemoApplication on DESKTOP-CAVF6SU with PID 17180 (E:\tool\idea\workdir\springboot_hibernate_demo\target\classes started by My in E:\tool\idea\workdir\springboot_hibernate_demo)
+2020-06-29 14:50:04.776|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-06-29 14:50:06.719|INFO |main|main|org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn() 127|Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-29 14:50:06.878|INFO |main|main|org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn() 187|Finished Spring Data repository scanning in 141ms. Found 1 JPA repository interfaces.
+2020-06-29 14:50:08.238|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-06-29 14:50:08.260|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-29 14:50:08.261|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-06-29 14:50:08.262|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-29 14:50:08.586|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_hibernate_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-06-29 14:50:08.586|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 3708 ms
+2020-06-29 14:50:08.955|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-29 14:50:09.053|INFO |task-1|task-1|org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation() 31|HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-29 14:50:09.309|INFO |task-1|task-1|org.hibernate.Version.logVersion() 44|HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-29 14:50:09.629|WARN |main|main|org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor() 220|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-29 14:50:09.746|INFO |task-1|task-1|org.hibernate.annotations.common.Version.<clinit>() 49|HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-29 14:50:10.016|INFO |task-1|task-1|com.zaxxer.hikari.HikariDataSource.getConnection() 110|HikariPool-1 - Starting...
+2020-06-29 14:50:10.018|WARN |task-1|task-1|com.zaxxer.hikari.util.DriverDataSource.<init>() 70|Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-29 14:50:10.335|INFO |task-1|task-1|com.zaxxer.hikari.HikariDataSource.getConnection() 123|HikariPool-1 - Start completed.
+2020-06-29 14:50:10.366|INFO |task-1|task-1|org.hibernate.dialect.Dialect.<init>() 172|HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-29 14:50:11.881|INFO |task-1|task-1|org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService() 52|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-29 14:50:11.901|INFO |task-1|task-1|org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory() 416|Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-29 14:50:12.435|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-29 14:50:13.000|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-06-29 14:50:13.071|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_hibernate_demo'
+2020-06-29 14:50:13.073|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-06-29 14:50:13.115|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-06-29 14:50:13.196|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-06-29 14:50:13.408|INFO |main|main|org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent() 49|Triggering deferred initialization of Spring Data repositories…
+2020-06-29 14:50:13.592|INFO |main|main|org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent() 53|Spring Data repositories initialized!
+2020-06-29 14:50:13.610|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStarted() 61|Started SpringbootHibernateDemoApplication in 10.617 seconds (JVM running for 15.255)
+2020-06-29 14:51:28.101|INFO |http-nio-8088-exec-6|http-nio-8088-exec-6|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_hibernate_demo].log() 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-29 14:51:28.102|INFO |http-nio-8088-exec-6|http-nio-8088-exec-6|org.springframework.web.servlet.DispatcherServlet.initServletBean() 525|Initializing Servlet 'dispatcherServlet'
+2020-06-29 14:51:28.113|INFO |http-nio-8088-exec-6|http-nio-8088-exec-6|org.springframework.web.servlet.DispatcherServlet.initServletBean() 547|Completed initialization in 11 ms
+2020-06-29 14:53:03.455|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy() 598|Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-29 14:53:03.459|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-29 14:53:03.459|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.zaxxer.hikari.HikariDataSource.close() 350|HikariPool-1 - Shutdown initiated...
+2020-06-29 14:53:03.482|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.zaxxer.hikari.HikariDataSource.close() 352|HikariPool-1 - Shutdown completed.
+2020-06-29 15:56:40.027|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStarting() 55|Starting SpringbootHibernateDemoApplication on DESKTOP-CAVF6SU with PID 7652 (E:\tool\idea\workdir\springboot_hibernate_demo\target\classes started by My in E:\tool\idea\workdir\springboot_hibernate_demo)
+2020-06-29 15:56:40.039|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-06-29 15:56:41.648|INFO |main|main|org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn() 127|Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-29 15:56:41.773|INFO |main|main|org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn() 187|Finished Spring Data repository scanning in 108ms. Found 1 JPA repository interfaces.
+2020-06-29 15:56:43.002|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-06-29 15:56:43.021|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-29 15:56:43.022|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-06-29 15:56:43.022|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-29 15:56:43.251|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_hibernate_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-06-29 15:56:43.251|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 3144 ms
+2020-06-29 15:56:43.518|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-29 15:56:43.598|INFO |task-1|task-1|org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation() 31|HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-29 15:56:43.863|INFO |task-1|task-1|org.hibernate.Version.logVersion() 44|HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-29 15:56:44.171|WARN |main|main|org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor() 220|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-29 15:56:44.319|INFO |task-1|task-1|org.hibernate.annotations.common.Version.<clinit>() 49|HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-29 15:56:44.648|INFO |task-1|task-1|com.zaxxer.hikari.HikariDataSource.getConnection() 110|HikariPool-1 - Starting...
+2020-06-29 15:56:44.650|WARN |task-1|task-1|com.zaxxer.hikari.util.DriverDataSource.<init>() 70|Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-06-29 15:56:44.852|INFO |task-1|task-1|com.zaxxer.hikari.HikariDataSource.getConnection() 123|HikariPool-1 - Start completed.
+2020-06-29 15:56:44.877|INFO |task-1|task-1|org.hibernate.dialect.Dialect.<init>() 172|HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-29 15:56:46.106|INFO |task-1|task-1|org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService() 52|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-29 15:56:46.122|INFO |task-1|task-1|org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory() 416|Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-29 15:56:46.685|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-29 15:56:47.103|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-06-29 15:56:47.149|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_hibernate_demo'
+2020-06-29 15:56:47.150|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-06-29 15:56:47.184|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-06-29 15:56:47.258|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-06-29 15:56:47.447|INFO |main|main|org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent() 49|Triggering deferred initialization of Spring Data repositories…
+2020-06-29 15:56:47.579|INFO |main|main|org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent() 53|Spring Data repositories initialized!
+2020-06-29 15:56:47.594|INFO |main|main|com.example.springboot_hibernate_demo.SpringbootHibernateDemoApplication.logStarted() 61|Started SpringbootHibernateDemoApplication in 8.81 seconds (JVM running for 11.891)
+2020-06-29 15:56:55.219|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_hibernate_demo].log() 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-29 15:56:55.219|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 525|Initializing Servlet 'dispatcherServlet'
+2020-06-29 15:56:55.227|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 547|Completed initialization in 8 ms
+2020-06-29 15:56:55.443|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_hibernate_demo.web.UserController.test1() 26|*************user:User{id=2323, userName='null', password='df', name='测试'}
+2020-06-29 15:57:10.751|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy() 598|Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-29 15:57:10.754|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-29 15:57:10.755|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.zaxxer.hikari.HikariDataSource.close() 350|HikariPool-1 - Shutdown initiated...
+2020-06-29 15:57:10.768|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.zaxxer.hikari.HikariDataSource.close() 352|HikariPool-1 - Shutdown completed.
