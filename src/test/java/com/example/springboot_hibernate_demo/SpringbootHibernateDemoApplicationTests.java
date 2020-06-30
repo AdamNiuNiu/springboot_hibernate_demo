@@ -17,12 +17,12 @@ class SpringbootHibernateDemoApplicationTests {
     @Test
     void contextLoads() {
 
-        List<User> userAll = userService.findUserAll();
-        if(userAll!=null && userAll.size()>0) {
-            for (User user : userAll) {
-                System.out.println("==================user:"+user.toString());
-            }
-        }
+//        List<User> userAll = userService.findUserAll();
+//        if(userAll!=null && userAll.size()>0) {
+//            for (User user : userAll) {
+//                System.out.println("==================user:"+user.toString());
+//            }
+//        }
     }
 
 }

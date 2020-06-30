@@ -6,5 +6,9 @@ import java.util.List;
 
 public interface UserService {
 
-    List<User> findUserAll();
+//    List<User> findUserAll();
+
+    List<User> findUserAllSession();
+
+    void saveUser(User user);
 }
